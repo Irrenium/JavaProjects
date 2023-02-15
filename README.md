@@ -13,7 +13,7 @@ Ecrire une fonction qui demande à l’utilisateur de saisir un nombre entier et
     - vieillesse sinon
 
 ## Exercice 2
-1- Donner une fonction qui permet de retourner le nombre de caractères constituant la chaine mot donner comme paramètre à la fonction et de les afficher en les séparant par la chaine :: tout en gérant les problèmes qui peuvent survenir.
+1- Donner une fonction qui permet de retourner le nombre de caractères constituant la chaine mot donné comme paramètre à la fonction et de les afficher en les séparant par la chaine :: tout en gérant les problèmes qui peuvent survenir.
 
 2- Donner une fonction qui permet de retourner une partie de la chaine mot, a partir d’une position et se terminant a une position fixe, attention aux arguments de la fonction
 

@@ -18,8 +18,11 @@ public class Main {
         // 3-
         // Obj1.age_info();
 
-        // Exerice2 Obj2 = new Exerice2();
-        // String s = Obj2.PartieString("skdjv", 2, 44);
+        Exerice2 Obj2 = new Exerice2();
+
+        int taille_chaine = Obj2.nombre_char("azertyuiop");
+        System.out.println("\nla taille de la chaine est : " + taille_chaine);
+
         // System.out.print(s);
     }
 }
