@@ -28,14 +28,13 @@
 ## Exercice 3
 
 Utiliser la classe StringBuffer ou StringBuilder pour écrire la fonction suivante:
-	```
+
     public String getChaineDesNombresDe1aN(String n){...}
-    ```
+
 
 Exemple d’affichage pour le teste de la fonction:
-    ```
+
     System.out.println(getChaineDesNombresDe1aN("5"));
-    affiche : 12345.
+        affiche : 12345.
     System.out.println(getChaineDesNombresDe1aN("A"));
-    affiche : Nombre invalide.
-    ```
+        affiche : Nombre invalide.
