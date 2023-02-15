@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Eexecice1 {
+public class Execice1 {
     private int nombre;
 
     public void parite_nombre() {
