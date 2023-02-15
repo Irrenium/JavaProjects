@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Exerice2 {
     /**
      * Une Method qui permet de retourner le nombre de caractères constituant la
@@ -116,7 +118,7 @@ public class Exerice2 {
      * string. Cette fonction retourne un nouvel objet.
      */
 
-    public String concat_chaine(String chaine1, char[] chaine2) {
+    public String concat_chaine(String chaine1) {
 
         if (chaine1 == null) {
             System.out.println("La chaîne est null!");
@@ -128,7 +130,13 @@ public class Exerice2 {
             return "";
         }
 
-        return "";
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.print("Entrez une chaine de caractère : ");
+        String chaine2 = keyboard.nextLine();
+
+        keyboard.close();
+        return chaine1 + " " + chaine2;
     }
 
 }
