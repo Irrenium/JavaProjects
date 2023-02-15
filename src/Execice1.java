@@ -44,6 +44,11 @@ public class Execice1 {
         keyboard.close();
     }
 
+    /**
+     * Une Method permettant d’afficher les infos concernant les intervalles de vie
+     * d’une personne. Cette fonction ne prend pas de paramètre mais demande à
+     * l’utilisateur d’entrer son âge puis d’afficher dont quelle catégorie d’âge
+     */
     public void age_info() {
         Scanner keyboard = new Scanner(System.in);
 
