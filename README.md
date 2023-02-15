@@ -1,4 +1,4 @@
-# Les exercices
+# Série 1
 
 ## Exercice 1
 1- Ecrire une fonction qui demande à l’utilisateur de saisir un nombre entier et de lui afficher que le nombre est pair ou impair selon la valeur tapée.
