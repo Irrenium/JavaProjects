@@ -37,8 +37,8 @@ public class Main {
         // System.out.println("Chaine transformé : " + lower_chaine);
 
         // 5-
-        String concat = Obj2.concat_chaine("this is the old");
-        System.out.println(concat);
+        // String concat = Obj2.concat_chaine("this is the old");
+        // System.out.println(concat);
 
         // System.out.print(s);
     }
