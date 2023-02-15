@@ -24,3 +24,18 @@
 5- Une fonction qui permet de concaténer la chaine mot et un deuxième objet de type string. Cette fonction retourne un nouvel objet.
 
 6- Tester ses fonctions dans la fonction main ( ), en demandant la saisie d’une chaine de caractère et de la stocker dans un objet référencié par mot ;
+
+## Exercice 3
+
+Utiliser la classe StringBuffer ou StringBuilder pour écrire la fonction suivante:
+	```
+    public String getChaineDesNombresDe1aN(String n){...}
+    ```
+
+Exemple d’affichage pour le teste de la fonction:
+    ```
+    System.out.println(getChaineDesNombresDe1aN("5"));
+    affiche : 12345.
+    System.out.println(getChaineDesNombresDe1aN("A"));
+    affiche : Nombre invalide.
+    ```
