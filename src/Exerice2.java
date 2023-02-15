@@ -33,6 +33,8 @@ public class Exerice2 {
      * Une Method qui permet de retourner une partie de la chaine mot, a partir
      * d’une position et se terminant a une position fixe
      * 
+     * Dans le cas où arrive < depart les paramètres sont inversé
+     * 
      * @param chaine
      * @param depart 0 < depart < taille_chaine + 2
      * @param arrive 0 < arrive < taille_chaine + 2
@@ -69,17 +71,64 @@ public class Exerice2 {
         }
     }
 
-    public String minuscule(String s) {
-        if (s != null && s.length() > 0) {
-            return s.toLowerCase();
+    /**
+     * Une Method qui permet de retourner la forme minuscule de la chaine mot
+     * 
+     * @param chaine
+     * @return
+     */
+    public String chaine_minuscule(String chaine) {
+        if (chaine == null) {
+            System.out.println("La chaîne est null!");
+            return "";
         }
-        return "c'est pas correcte";
+
+        if (chaine.length() < 0) {
+            System.out.println("La chaîne est vide!");
+            return "";
+        }
+
+        return chaine.toLowerCase();
     }
 
-    public String majuscule(String s) {
-        if (s != null && s.length() > 0) {
-            return s.toUpperCase();
+    /**
+     * Une Method qui permet de retourner la forme minuscule de la chaine mot
+     * 
+     * @param chaine
+     * @return
+     */
+    public String chaine_majuscule(String chaine) {
+        if (chaine == null) {
+            System.out.println("La chaîne est null!");
+            return "";
         }
-        return "c'est pas correcte";
+
+        if (chaine.length() < 0) {
+            System.out.println("La chaîne est vide!");
+            return "";
+        }
+
+        return chaine.toUpperCase();
     }
+
+    /**
+     * Une Method permet de concaténer la chaine mot et un deuxième objet de type
+     * string. Cette fonction retourne un nouvel objet.
+     */
+
+    public String concat_chaine(String chaine1, char[] chaine2) {
+
+        if (chaine1 == null) {
+            System.out.println("La chaîne est null!");
+            return "";
+        }
+
+        if (chaine1.length() < 0) {
+            System.out.println("La chaîne est vide!");
+            return "";
+        }
+
+        return "";
+    }
+
 }
