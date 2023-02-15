@@ -3,6 +3,12 @@ import java.util.Scanner;
 public class Execice1 {
     private int nombre;
 
+    /**
+     * Method qui demande à l’utilisateur de saisir un nombre entier et de lui
+     * afficher que le nombre est pair ou impair selon la valeur tapée.
+     * 
+     * @param
+     */
     public void parite_nombre() {
         Scanner keyboard = new Scanner(System.in);
 
@@ -17,6 +23,10 @@ public class Execice1 {
         keyboard.close();
     }
 
+    /**
+     * Method somme_nombre qui demande à l'utilisateur de saisir un nombre entier et
+     * qui affiche la somme des nombres entiers impairs qui lui sont inférieurs.
+     */
     public void somme_nombre() {
         Scanner keyboard = new Scanner(System.in);
         int somme = 0;
@@ -30,7 +40,7 @@ public class Execice1 {
             }
             System.out.println(i + " :: " + somme);
         }
-        System.out.println("la somme des nombres inférieus et impaires : " + somme);
+        System.out.println("La somme des nombres inférieus et impaires est : " + somme);
         keyboard.close();
     }
 
