@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exerice2 {
+public class Exercice2 {
     /**
      * Une Method qui permet de retourner le nombre de caractères constituant la
      * chaine mot donné comme paramètre à la fonction et de les afficher en les

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Execice1 {
+public class Exercice1 {
     private int nombre;
 
     /**

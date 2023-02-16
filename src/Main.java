@@ -7,7 +7,7 @@ public class Main {
      */
     public static void main(String[] args) throws Exception {
 
-        Execice1 Obj1 = new Execice1();
+        Exercice1 Obj1 = new Exercice1();
 
         // 1-
         // Obj1.parite_nombre();
@@ -18,7 +18,7 @@ public class Main {
         // 3-
         // Obj1.age_info();
 
-        Exerice2 Obj2 = new Exerice2();
+        Exercice2 Obj2 = new Exercice2();
 
         // 1-
         // int taille_chaine = Obj2.nombre_char("azertyuiop");
