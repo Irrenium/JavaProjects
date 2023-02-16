@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     /**
      * Pour executer le code décommenter chaque fonction individuellement
@@ -41,6 +43,16 @@ public class Main {
         // System.out.println(concat);
 
         // System.out.print(s);
+
+        Exercice3 Obj3 = new Exercice3();
+
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.print("Entrez un nombre : ");
+
+        String nombre = keyboard.nextLine();
+        System.out.println(Obj3.getChaineDesNombresDe1aN(nombre));
+        keyboard.close();
 
     }
 }
