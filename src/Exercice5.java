@@ -1,8 +1,13 @@
 public class Exercice5 {
-    public void echanger(StringBuilder ch1, StringBuilder ch2) {
-        StringBuilder tmp = new StringBuilder(ch1.toString());
-        ch1.replace(0, ch2.length(), ch2.toString());
-        ch2.replace(0, tmp.length(), tmp.toString());
+    /**
+     * 
+     * @param chaine_1
+     * @param chaine_2
+     */
+    public void echanger(StringBuilder chaine_1, StringBuilder chaine_2) {
+        StringBuilder tmp = new StringBuilder(chaine_1.toString());
+        chaine_1.replace(0, chaine_2.length(), chaine_2.toString());
+        chaine_2.replace(0, tmp.length(), tmp.toString());
     }
 
     public boolean estvoyelle(char c) {
