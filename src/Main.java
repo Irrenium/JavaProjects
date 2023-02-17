@@ -46,12 +46,22 @@ public class Main {
 
         Exercice3 Obj3 = new Exercice3();
 
+        // Scanner keyboard = new Scanner(System.in);
+
+        // System.out.print("Entrez un nombre : ");
+
+        // String nombre = keyboard.nextLine();
+        // System.out.println(Obj3.getChaineDesNombresDe1aN(nombre));
+        // keyboard.close();
+
+        Exercice4 Obj4 = new Exercice4();
+
         Scanner keyboard = new Scanner(System.in);
 
-        System.out.print("Entrez un nombre : ");
+        System.out.print("Entrez une chaine à inverser : ");
 
-        String nombre = keyboard.nextLine();
-        System.out.println(Obj3.getChaineDesNombresDe1aN(nombre));
+        String chaine = keyboard.nextLine();
+        System.out.println(Obj4.inverse_Chaine(chaine));
         keyboard.close();
 
     }
