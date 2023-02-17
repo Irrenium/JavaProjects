@@ -15,15 +15,24 @@ public class Exercice5 {
     }
 
     // traducton en javanais
-    public StringBuilder javanais(String s) {
-        StringBuilder ss;
-        ss = new StringBuilder("");
-        ss.append(s);
-        for (int i = 1; i < ss.length(); i++) {
-            char x = ss.charAt(i);
-            if ((estvoyelle(x) == true) && (estvoyelle(ss.charAt(i - 1)) == false))
-                ss.insert(i + 1, "av");
+
+    /**
+     * 
+     * @param chaine
+     * @return
+     */
+    public StringBuilder javanais(String chaine_) {
+
+        StringBuilder chaine = new StringBuilder("");
+
+        chaine.append(chaine_);
+
+        for (int i = 1; i < chaine.length(); i++) {
+            char x = chaine.charAt(i);
+
+            if ((estvoyelle(x) == true) && (estvoyelle(chaine.charAt(i - 1)) == false))
+                chaine.insert(i + 1, "av");
         }
-        return ss;
+        return chaine;
     }
 }
