@@ -56,13 +56,13 @@ public class Main {
 
         Exercice4 Obj4 = new Exercice4();
 
-        Scanner keyboard = new Scanner(System.in);
+        // Scanner keyboard = new Scanner(System.in);
 
-        System.out.print("Entrez une chaine à inverser : ");
+        // System.out.print("Entrez une chaine à inverser : ");
 
-        String chaine = keyboard.nextLine();
-        System.out.println(Obj4.inverse_Chaine(chaine));
-        keyboard.close();
+        // String chaine = keyboard.nextLine();
+        // System.out.println(Obj4.inverse_Chaine(chaine));
+        // keyboard.close();
 
     }
 }
