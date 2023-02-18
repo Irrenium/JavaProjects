@@ -2,9 +2,12 @@
 public class Exercice4 {
 
     /**
+     * Une Method à qui on donne une chaîne de caractères, et on lui demande de
+     * construire une nouvelle chaîne contenant les mêmes caractères en ordre
+     * inverse
      * 
      * @param chaine chiaen à inverser
-     * @return
+     * @return string resultat
      */
     public String inverse_Chaine(String chaine) {
 
