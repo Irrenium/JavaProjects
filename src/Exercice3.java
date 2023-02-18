@@ -1,6 +1,7 @@
 
 public class Exercice3 {
     /**
+     * Une Method qui affiche une suite de nombre jusqu'au numéro saisit
      * 
      * @param n chaine de caratère à analyser
      * @return
