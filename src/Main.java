@@ -73,5 +73,8 @@ public class Main {
         // StringBuilder resultat = Obj5.javanais(chaine);
 
         // System.out.println("Mot en Javanais : " + resultat.toString());
+
+        Exercice6 Obj6 = new Exercice6();
+
     }
 }
