@@ -6,7 +6,7 @@ public class Exercice4 {
      * construire une nouvelle chaîne contenant les mêmes caractères en ordre
      * inverse
      * 
-     * @param chaine chiaen à inverser
+     * @param chaine chaine à inverser
      * @return string resultat
      */
     public String inverse_Chaine(String chaine) {
