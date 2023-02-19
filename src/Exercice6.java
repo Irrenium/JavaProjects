@@ -20,33 +20,45 @@ public class Exercice6 {
      * solution lui sera donnée
      */
     public void jeu() {
-        System.out.println("Entrer un nombre : ");
-        Scanner entree = new Scanner(System.in);
 
-        int n = entree.nextInt();
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.print("Entrer un nombre max: ");
+        int n = keyboard.nextInt();
+
         Random OR = new Random();
-        int al = OR.nextInt(n);
+        int reponse = OR.nextInt(n);
         int cpt = 0;
 
-        System.out.print("========================");
-        int x = entree.nextInt();
-        while (x != al && cpt != 10) {
-            if (x > al) {
-                System.out.print("plus grand");
-                x = entree.nextInt();
-                cpt++;
-            } else if (x < al) {
-                System.out.print("plus petit");
-                x = entree.nextInt();
-                cpt++;
+        System.out.println("======================================");
+
+        System.out.println("Entrer un nombre : ");
+        int nombre = keyboard.nextInt();
+
+        while (nombre != reponse && cpt <= 10) {
+            if (nombre > reponse) {
+                System.out.println("trop grand");
+
+            } else if (nombre < reponse) {
+                System.out.println("trop petit");
+            }
+
+            nombre = keyboard.nextInt();
+            cpt++;
+
+            if (nombre == reponse) {
+                System.out.println("Bravooo");
+                break;
             }
         }
-        if (x == al) {
-            System.out.print("bravooo");
-        } else if (cpt == 10) {
-            System.out.print("la solution est " + al);
+
+        System.out.println("======================================");
+        if (cpt == 10) {
+            System.out.print("La solution est " + reponse);
         }
-        entree.close();
+        System.out.println("Le nombre d'essai est : " + (cpt + 1));
+        System.out.print("La solution est : " + reponse);
+        keyboard.close();
 
     }
 }
