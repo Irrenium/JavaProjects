@@ -76,5 +76,6 @@ public class Main {
 
         Exercice6 Obj6 = new Exercice6();
 
+        Obj6.jeu();
     }
 }
