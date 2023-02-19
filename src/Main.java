@@ -64,5 +64,14 @@ public class Main {
         // System.out.println(Obj4.inverse_Chaine(chaine));
         // keyboard.close();
 
+        Exercice5 Obj5 = new Exercice5();
+
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Entrez une chaine à traduire : ");
+
+        String chaine = keyboard.nextLine();
+        StringBuilder resultat = Obj5.javanais(chaine);
+
+        System.out.println("Mot en Javanais : " + resultat.toString());
     }
 }
