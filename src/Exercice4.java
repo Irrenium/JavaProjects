@@ -15,12 +15,12 @@ public class Exercice4 {
 
         if (chaine == null) {
             System.out.println("La chaîne est null!");
-            return "null";
+            return "";
         }
 
         if (chaine.length() < 0) {
             System.out.println("La chaîne est vide!");
-            return "vide";
+            return "";
         }
 
         for (int i = chaine.length() - 1; i >= 0; i--) {
