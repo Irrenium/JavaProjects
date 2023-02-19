@@ -20,7 +20,7 @@ public class Exercice6 {
      * solution lui sera donnée
      */
     public void jeu() {
-        System.out.println("donner un nombre");
+        System.out.println("Entrer un nombre : ");
         Scanner entree = new Scanner(System.in);
 
         int n = entree.nextInt();
@@ -28,7 +28,7 @@ public class Exercice6 {
         int al = OR.nextInt(n);
         int cpt = 0;
 
-        System.out.print("ylhbda");
+        System.out.print("========================");
         int x = entree.nextInt();
         while (x != al && cpt != 10) {
             if (x > al) {
